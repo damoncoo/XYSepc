@@ -2,15 +2,16 @@ Pod::Spec.new do |s|
   s.name     = 'NIMSDK'
   s.version  = '5.0.1'
   s.summary  = 'NIMSDK for QKKJ'
-  s.homepage = 'git@github.com:flygift/NIMSDK.git'
+  s.homepage = 'https://coding.net/u/damoncoo/p/NIMSDK'
   s.author   = { 'Damon Chen' => 'damoncoo@gmail.com' }
   s.license  = { :type => 'Copyright', :text => <<-LICENSE
                    © 2018
                  LICENSE
                }
   s.source   = { :git => 'https://git.coding.net/damoncoo/NIMSDK.git', :tag => '5.0.1' }
-  s.vendored_frameworks = 'NIMSDK.framework'
-  s.vendored_libraries = 'Libs/*.a'
+  s.resources = 'NIMAVChat/Resources/NMCVideoFilter.bundle'
+  s.vendored_frameworks = '**/*.framework'
+  s.vendored_libraries = '**/Libs/*.a'
   s.libraries = [
     'sqlite3.0',
     'z',

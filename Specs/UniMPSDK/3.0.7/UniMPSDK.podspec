@@ -8,12 +8,11 @@ Pod::Spec.new do |s|
 
   s.author = { "Damon" => "damoncoo@gmail.com" }
 
-  s.platform = :ios
-  s.ios.framework = "JavaScriptCore", "CoreMedia", "MediaPlayer", "AVFoundation", "MediaPlayer", "CoreVideo", "AVKit", "GLKit", "AVFoundation", "OpenGLES", "CoreText", "QuartzCore", "CoreGraphics", "QuickLook", "CoreTelephony", "AssetsLibrary", "CoreLocation", "AddressBook"
-  s.ios.deployment_target = "10.0"
+  s.framework = "JavaScriptCore", "CoreMedia", "MediaPlayer", "AVFoundation", "MediaPlayer", "CoreVideo", "AVKit", "GLKit", "AVFoundation", "OpenGLES", "CoreText", "QuartzCore", "CoreGraphics", "QuickLook", "CoreTelephony", "AssetsLibrary", "CoreLocation", "AddressBook"
+  s.deployment_target = "10.0"
 
-  s.resource = "UniMPSDK/Features/Resources/*.bundle"
-  s.vendored_frameworks = "UniMPSDK/Features/Libs/*.framework"
-  # s.vendored_libraries = "UniMPSDK/Features/Libs/*.a"
+  s.resource = "Features/Resources/*.bundle"
+  s.vendored_frameworks = "Features/Libs/*.framework"
+  s.vendored_libraries = "Features/Libs/*.a"
   s.libraries = "c++"
 end

@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
 
   s.author = { "Damon" => "damoncoo@gmail.com" }
 
+  s.platform = :ios
   s.framework = "JavaScriptCore", "CoreMedia", "MediaPlayer", "AVFoundation", "MediaPlayer", "CoreVideo", "AVKit", "GLKit", "AVFoundation", "OpenGLES", "CoreText", "QuartzCore", "CoreGraphics", "QuickLook", "CoreTelephony", "AssetsLibrary", "CoreLocation", "AddressBook"
   s.deployment_target = "10.0"
 

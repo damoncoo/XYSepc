@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   It is useful for all apps
   DESC
 
-  s.homepage         = 'https://github.com/damoncoo/yi-core-lib'
+  s.homepage         = 'git@github.com:damoncoo/yi-core-lib.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { type: 'MIT', file: 'LICENSE' }
   s.author           = { 'Damon Cheng' => 'damoncoo@gmail.com' }

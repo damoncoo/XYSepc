@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
   It is useful for all apps
   DESC
 
-  s.homepage         = 'git@github.com:damoncoo/yi-core-lib.git'
+  s.homepage         = 'https://github.com/damoncoo/yi-core-lib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { type: 'MIT', file: 'LICENSE' }
   s.author           = { 'Damon Cheng' => 'damoncoo@gmail.com' }
-  s.source           = { git: 'https://github.com/damoncoo/yi-core-lib.git', tag: s.version.to_s }
+  s.source           = { git: 'git@github.com:damoncoo/yi-core-lib.git', tag: s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

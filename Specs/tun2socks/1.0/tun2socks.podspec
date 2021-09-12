@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                   A tun2socks framework with Swift wrapper
   DESC
 
-  s.homepage     = 'https://github.com/damoncoo/tun2socks'
+  s.homepage     = 'https://github.com/lexrus/tun2socks'
 
   s.license      = { type: 'APACHE 2.0', file: 'LICENSE' }
 

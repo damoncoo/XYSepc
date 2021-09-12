@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'tun2socks'
-  s.version      = '1.0'
+  s.version      = '0.8'
   s.summary      = 'A tun2socks framework with Swift wrapper'
   s.description  = <<-DESC
                   A tun2socks framework with Swift wrapper

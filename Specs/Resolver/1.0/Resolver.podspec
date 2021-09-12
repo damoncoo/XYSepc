@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'Resolver'
-  s.version      = '1.0'
+  s.version      = '0.2.0'
   s.summary      = 'Asynchronous DNS resolver for macOS and iOS'
   s.description  = <<-DESC
                     Asynchronous DNS resolver for macOS and iOS

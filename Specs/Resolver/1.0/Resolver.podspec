@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
 
   s.swift_version = '5.0'
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source = { git: 'https://github.com/lexrus/Resolver.git',
                tag: s.version }

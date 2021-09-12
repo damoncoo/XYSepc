@@ -18,11 +18,18 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.ios.deployment_target = '8.0'
 
-  s.source = { git: 'https://github.com/lexrus/MMDB-Swift.git',
-               tag: s.version }
+  s.source = { git: 'https://github.com/damoncoo/NEKit.git',
+               tag: 'v1.0' }
 
   s.source_files = 'src/**/*.{h,m,swift}'
 
   s.framework = 'Foundation'
   s.requires_arc = true
+  s.dependency 'CocoaAsyncSocket', '~> 7.6.3'
+  s.dependency 'CocoaLumberjack', '~> 3.5.2'
+  s.dependency 'MMDB-Swift', '0.5.0'
+  s.dependency 'Sodium', '0.8.0'
+  s.dependency 'Yaml', '3.4.3'
+  s.dependency 'tun2socks', '1.0'
+  s.dependency 'Resolver', '1.0'
 end
